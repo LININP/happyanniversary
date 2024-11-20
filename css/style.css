@@ -665,13 +665,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 
 
-@media (max-width: 680px) {
+@media screen and (max-width: 640px) {
+
+	.intro {
+		height: 70vh;
+	}
+	header .intro-text {
+		padding-top: 270px;
+		padding-bottom: 0;
+	}
+	.intro h1 {
+        font-size: 44px;
+    }
+	.intro p {
+		font-size: 23px;
+		margin-top: 0px;
+	}
 	.bg-video {
 		object-fit: fill;
-		height:600px;
+		width: 100%;
+		left: 0;
 		object-fit:cover;
 	}
-	
-
-	
 }
+@media screen and (max-width: 400px) {
+
+	.intro {
+		height: 49vh;
+	}
+	header .intro-text {
+		padding-top: 145px;
+		padding-bottom: 0;
+	}
+}
+
