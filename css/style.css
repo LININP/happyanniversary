@@ -674,6 +674,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 
 	.intro {
 		height:600px;
+		margin-bottom: auto;
 
 
 	}
