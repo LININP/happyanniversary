@@ -668,7 +668,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 @media (max-width: 680px) {
 	.bg-video {
 		object-fit: fill;
-		height: 100%; /* Adjust height as needed */
+		height: auto; /* Height adjusts based on the video width */
 	}
+	
 	
 }
